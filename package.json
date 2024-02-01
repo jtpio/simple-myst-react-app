@@ -9,7 +9,9 @@
     "react": "latest",
     "react-dom": "latest",
     "react-scripts": "latest",
-    "remarkable": "2.0.1"
+    "myst-parser": "latest",
+    "myst-to-html": "latest"
+
   },
   "scripts": {
     "start": "react-scripts start",
