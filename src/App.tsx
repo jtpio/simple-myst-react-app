@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import MarkdownPreview from './MarkdownPreview.js';
+import MarkdownPreview from './MarkdownPreview';
 
 export default function MarkdownEditor() {
   const [postContent, setPostContent] = useState('_Hello,_ **Markdown**!');
