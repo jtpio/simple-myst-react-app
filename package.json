@@ -9,8 +9,14 @@
     "react": "latest",
     "react-dom": "latest",
     "react-scripts": "latest",
+    "react-syntax-highlighter": "latest",
     "myst-parser": "latest",
-    "myst-to-html": "latest"
+    "myst-to-html": "latest",
+    "myst-roles":"latest",
+    "myst-directives": "latest",
+    "@myst-theme/diagrams": "^0.5.21",
+    "@myst-theme/frontmatter": "^0.5.21",
+    "@myst-theme/providers": "^0.5.21"
 
   },
   "scripts": {
@@ -38,6 +44,6 @@
     ]
   },
   "devDependencies": {
-    "@types/remarkable": "^2.0.8"
+    "@myst-theme/styles": "^0.3.3"
   }
 }

@@ -1,3 +1,20 @@
+@import './typography.css';
+@import './grid-system.css';
+@import './details.css';
+@import './citations.css';
+@import './figures.css';
+@import './text-spacers.css';
+@import './code-highlight.css';
+@import './math.css';
+@import './cross-references.css';
+@import './block-styles.css';
+@import './jupyter.css';
+@import './tasklists.css';
+@import './grid.css';
+@import './hover.css';
+@import './proof.css';
+@import './toc.css';
+
 .App {
   text-align: center;
 }
@@ -8,21 +25,19 @@
 .textarea-class {
   border-width: 2px;
   border-style: solid;
-  border-color: orange;
   border-radius: 10px;
-  background-color: rgb(251, 237, 212);
   padding-left: 10px;
   margin-left: 10%;
   width:80%;
   height: auto;
   min-height: 200px;
   }
+
+
 .markdown-preview-class {
   border-width: 2px;
   border-radius: 10px;
   border-style: solid;
-  border-color: orange;
-  background-color: rgb(251, 237, 212);
   margin-left: 10%;
   padding-left: 10px;
   width:80%;
