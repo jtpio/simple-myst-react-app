@@ -1,4 +1,55 @@
-@import url('base.css');
+@import url('app.css');
+@import url('~katex/dist/katex.css');
+
+
+.App {
+  text-align: center;
+}
+.app-title{
+  color:orange;
+  text-align: center
+}
+
+.node-list-class {list-style-type: none;}
+
+.hello-world-class {
+  background-color: orange;
+  color: red;
+  font-style: italic;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 36px;
+  border: solid;
+  border-width: 2px;
+}
+
+.textarea-class {
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 10px;
+  padding-left: 10px;
+  margin-left: 10%;
+  width:80%;
+  height: auto;
+  min-height: 200px;
+  }
+
+
+.markdown-preview-class {
+  border-width: 2px;
+  border-radius: 10px;
+  border-style: solid;
+  margin-left: 10%;
+  padding-left: 10px;
+  width:80%;
+  height: auto;
+  min-height: 200px;
+}
+
+.text-instruction-class {
+  margin-left: 10%;
+  font-size: 16px;
+}
+
 
 body {
   margin: 0;
