@@ -53,5 +53,6 @@
     "@myst-theme/styles": "^0.3.3",
     "@tailwindcss/typography": "^0.5.10",
     "@types/katex": "^0.16.7"
-  }
+  },
+  "homepage": "./"
 }
